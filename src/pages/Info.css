@@ -1,0 +1,27 @@
+.pokemon-stats {
+  max-width: 15rem;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 2.5px solid #d1d1e9;
+  font-size: 0.9rem;
+}
+
+.pokemon-info {
+  padding: 2rem;
+}
+.type-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.type-value {
+  padding: 0.4rem;
+  border-radius: 10px;
+}

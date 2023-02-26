@@ -2,6 +2,58 @@
   text-align: center;
 }
 
+.title {
+  font-family: "Poke";
+  font-size: 5rem;
+  color: #e45858;
+
+  padding-top: 2rem;
+}
+
+.hero {
+  width: 100%;
+  height: 70vh;
+}
+
+.container {
+  max-width: 50rem;
+  margin: 100px auto;
+  margin-bottom: 4rem;
+  text-align: center;
+  background-color: #fffffe;
+  /* border: 4px solid #2b2c34; */
+  border-radius: 10px;
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.pokemon {
+  margin: 0.5rem auto;
+  max-width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pokemon img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #eee;
+  border: 3px solid white;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+.pokemon img:hover {
+  background-color: #d1d1e9;
+}
+
+.pokemon-name {
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +87,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.loading {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  letter-spacing: 10px;
+  font-size: 0.6rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  font-size: 0.7rem;
+  padding-bottom: 2rem;
+  color: #d1d1e9;
 }

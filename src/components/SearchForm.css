@@ -1,0 +1,14 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-text {
+  background-color: lightpink;
+  border-radius: 5px;
+  font-size: 0.6rem;
+  padding: 0.3rem;
+  opacity: 90%;
+}

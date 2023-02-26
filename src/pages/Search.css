@@ -1,0 +1,15 @@
+.searchResults {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.results-psyduck {
+  margin-top: 2rem;
+}
+
+.query-text {
+  color: #d1d1e9;
+}

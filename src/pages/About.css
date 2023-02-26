@@ -1,0 +1,8 @@
+.text-about-me {
+  padding: 3rem;
+  letter-spacing: 2px;
+  line-height: 2rem;
+  text-transform: lowercase;
+  max-width: 600px;
+  margin: 0 auto;
+}
